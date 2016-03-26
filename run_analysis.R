@@ -9,7 +9,7 @@ test.activity<-tbl_df(read.table("UCI HAR Dataset\\test\\y_test.txt"))
 test.activitylist<-tbl_df(read.table("UCI HAR Dataset\\activity_labels.txt",stringsAsFactors = FALSE))
 test.features<-tbl_df(read.table("UCI HAR Dataset\\features.txt",stringsAsFactors = FALSE))
 #For Train
-train.test_subject<-tbl_df(read.table("\UCI HAR Dataset\\train\\subject_train.txt"))
+train.test_subject<-tbl_df(read.table("UCI HAR Dataset\\train\\subject_train.txt"))
 train.x_data<-tbl_df(read.table("UCI HAR Dataset\\train\\X_train.txt"))
 train.activity<-tbl_df(read.table("UCI HAR Dataset\\train\\y_train.txt"))
 train.activitylist<-tbl_df(read.table("UCI HAR Dataset\\activity_labels.txt",stringsAsFactors = FALSE))
