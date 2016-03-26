@@ -34,3 +34,6 @@ all_dat<-all_dat[,selector]
 
 grouped.all_dat<-group_by(all_dat,ID,activity)
 summary.grouped_all_dat<-summarise_each(grouped.all_dat,funs(mean))
+
+#write.table(summary.grouped_all_dat,file = "summary.grouped_all_dat.txt", row.names = FALSE)
+#uncomment above if you want to output the dataset to a text for submission....
